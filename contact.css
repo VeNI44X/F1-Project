@@ -1,0 +1,157 @@
+*{
+   margin: 0;
+   padding:0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.section-one {
+width: 100%;
+height: 40vh;
+background-image: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('logogogo.jpg');
+background-position: center;
+object-fit: cover;
+background-attachment: fixed;
+justify-content: center;
+}
+.container{
+   width: 700px;
+   height: 100vh;
+   
+   background-color: grey;
+  
+
+}
+body{
+  margin-left: 80px;
+  margin-right: 80px;
+ 
+ background-color: rgb(192, 185, 185);
+}
+
+.About{
+   width: 100%;
+   height: 39vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 2rem;
+   background-color: rgb(255, 255, 255);
+   border: 1px solid rgb(189, 185, 185);
+}
+
+.header{
+   padding: 1rem;
+   background-color: rgb(250, 246, 246);
+   background-image: url(f1logo.png);
+}
+
+a{
+   color: rgb(177, 49, 27);
+   text-decoration: none;
+    padding-right: 2rem;
+}
+
+.box{
+   width: 300px;
+   text-align: center;
+
+
+}
+p{
+  
+   justify-items: center;
+   text-align: center;
+   
+}
+.contact{
+   justify-content: center;
+ 
+}
+
+
+
+.s3{
+   width: 100%;
+   padding-top: 2rem;
+   display: grid;
+   height: 500px;
+   justify-items: center;
+   grid-template-columns: repeat(2,1fr);
+   grid-auto-rows: 350px;
+   background-color: white;
+
+ 
+   
+   font-size: large;
+  
+}
+
+input{
+background-color: rgb(255, 255, 255);
+border-style: none;
+border-bottom: 1px solid gray;
+width: 500px;
+height: 100px; font-size:x-large ;
+}
+
+textarea{
+   border-style: none;
+   width: 500px;
+   height: 200px; font-size:x-large ;
+   border-bottom: 1px solid gray;
+
+}
+
+button{
+   width: 150px;
+   height: 50px;
+   color: rgb(3, 24, 17);
+   background-color: rgb(64, 216, 140);
+   border-radius: 5px;
+   border: none;
+}
+
+
+.map-container {
+   width: 100%;
+   height: 400px;
+   overflow: hidden;
+   border-radius: 10px; 
+   justify-content: center;
+   margin-left: 30rem;
+   
+   
+}
+.sudlanan{
+   background-color: white;
+   padding-bottom: 5rem;
+}
+.rights{
+   background-color: white;
+   justify-content: center;
+   text-align: center;
+   padding-bottom: 3rem;
+   color: grey;
+}
+
+@media (max-width: 1025px) {
+   .S3{
+       grid-template-columns: repeat(2, 1fr);
+
+   }
+   
+}
+
+@media (max-width:500px) {
+   .s3{
+       grid-template-columns: repeat(1, 1fr);
+
+   }
+
+   .s4{
+       grid-template-columns: (1,1fr);
+       padding: 1rem;
+   }
+   
+}

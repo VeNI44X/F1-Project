@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.s1{
+    width: 100%;
+    height: 40vh;
+    background-image:  url(logogogo.jpg) ;
+    background-position: center;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+   
+
+
+}
+
+.header{
+    padding: 1rem;
+    background-color: rgb(253, 253, 253);
+}
+body{
+    margin-left: 80px;
+        margin-right: 80px;
+       
+       background-color: rgb(192, 185, 185);
+}
+
+
+
+a{
+    color: rgb(145, 45, 45);
+    text-decoration: none;
+    padding-right: 2rem;
+}
+
+.s2{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.box{
+    width: 450px;
+    text-align: center;
+}
+
+.box3{
+    border: 1px solid rgb(252, 252, 252);
+    padding: 1rem;
+}
+.mcl{
+    padding-bottom: 1rem;
+    color: rgb(214, 147, 21) ;
+ }
+
+ .rb{
+    padding-bottom: 1rem;
+    color: rgb(26, 34, 143) ;
+ }
+ .sf{
+    padding-bottom: 1rem;
+    color: rgb(182, 46, 13) ;
+ }
+ .merc{
+    padding-bottom: 1rem;
+    color: rgb(74, 180, 184) ;
+ }
+ .haas{
+    padding-bottom: 1rem;
+    color: rgb(216, 55, 15) ;
+ }
+ .ast{
+    padding-bottom: 1rem;
+    color: rgb(31, 139, 67) ;
+ }
+ .will{
+    padding-bottom: 1rem;
+    color: rgb(44, 90, 218) ;
+ }
+ .visa{
+    padding-bottom: 1rem;
+    color: rgb(33, 35, 153) ;
+ }
+ .bwt{
+    padding-bottom: 1rem;
+    color: rgb(216, 83, 183) ;
+ }
+ .kick{
+    padding-bottom: 1rem;
+    color: rgb(13, 155, 13);
+ }
+h1{
+    padding-bottom: 2rem;
+}
+
+p{
+    padding-bottom: 2rem;
+    line-height: 30px;
+    
+    
+}
+button{
+    padding: 0.6rem 1rem;
+    border: 1px solid rgb(13, 126, 13) ;  
+    margin-right: 10px;
+    color: green;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+    margin: 1rem;
+}
+
+.manok{
+    background-color: green;
+    color: white;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+.manok:hover{
+    background-color: white;
+    color: green;
+}
+
+.S3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(300px);
+    gap: 10px;
+    padding: 2rem;
+    background-color: white;
+    
+  
+}
+
+img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+   
+
+}
+
+.price{
+    color: rgb(209, 144, 24);
+}
+
+.desc{
+    padding-top: 1rem;
+}
+
+h4{
+    color: rgb(1, 10, 5);
+}
+.s4{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: minmax(300px);
+    background-color: white;
+
+
+}
+h1{
+    font-size: xx-large;
+    color: red;
+}
+
+
+.pic{
+    object-position: start ;
+}
+
+.box1{
+    padding: 2rem;
+    
+}
+.desc-4{
+    padding-top: 20px;
+}
+.rights{
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 3rem;
+    color: grey;
+ }
+
+
+
+
+@media (max-width: 1025px) {
+    .S3{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    
+}
+
+@media (max-width:500px) {
+    .s3{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .s4{
+        grid-template-columns: (1,1fr);
+        padding: 1rem;
+    }
+    
+}
+
+.ars{
+    text-align: end;
+    justify-content: end;
+    color: gray;
+    margin-top: 2rem;
+}
+
